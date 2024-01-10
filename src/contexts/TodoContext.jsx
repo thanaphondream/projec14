@@ -1,7 +1,7 @@
 import { createContext, useEffect, useState } from "react"
 import axios from "axios"
 
-const apiUrl = 'http://localhost:8000/todos/'
+const apiUrl = 'https://api-wu35.onrender.com/todos/'
 const TodoContext = createContext()
 
 function TodoContextProvider(props) {
